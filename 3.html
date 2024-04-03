@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p{
+            text-align: center;
+        }
+
+        header{
+            display: flex;
+            height: 80px;
+            background-color: rgb(230, 230, 84);
+        }
+
+        nav{
+            display: flex;
+            height: 600px;
+            width: 10%;
+            background-color: rgb(208, 127, 127);
+        }
+
+        .container{
+            display: flex;
+            height: 600px
+        }
+
+        .articlebox {
+            flex: 3;
+            display: flex;
+            flex-direction: column; 
+        }
+
+        article {
+            background-color: rgb(84, 176, 207);
+        }
+
+        .header {
+            background-color: rgb(241, 191, 26);
+        }
+
+        figure {
+            background-color: rgb(11, 104, 11);
+            width: 150px;
+            height: 150px;
+        }
+
+        figcaption {
+            background-color: rgb(145, 144, 144);
+        }
+
+        footer {
+            background-color: rgb(228, 94, 94);
+            height: 100px;
+        }
+
+        .footer {
+            background-color: rgb(183, 117, 91);
+            height: 50px;
+        }
+
+    </style>
+    <body>
+        <header><p>ini header</p></header>
+        <main class="container">
+            <nav><p>ini Nav</p></nav>
+
+            <main class="articlebox">
+                <article class="container">
+                    <figure>
+                        <p>ini figure</p>
+                        <figcaption><p>ini figcaption</p></figcaption>
+                    </figure>
+
+                    <main class="articlebox">
+                        <header class="header">header</header>
+                        <p>ini article</p>
+                        <header class="footer">ini footer</header>
+                            </main>
+                </article>
+
+                <article class="container">
+                    <figure>
+                        <p>ini figure</p>
+                        <figcaption> <p>figcaption</p></figcaption>
+                    </figure>
+                    
+                    <main class="articlebox">
+                        <header class="header"><p>ini header</p></header>
+                        <p>article</p>
+                        <header class="footer">Footer</header>
+                    </main>
+                </article>
+
+                <article class="container">
+                    <figure>
+                        <p>Ini Figure</p>
+                        <figcaption> <p>ini figcaption</p></figcaption>
+                    </figure>
+
+                    <main class="articlebox">
+                        <header class="header">Header</header>
+                            <p>ini article</p>
+                        <header class="footer">Footer</header>
+                    </main>
+                </article>
+                </main>
+            </main>
+            <footer class="footerpage">Footer</footer>
+        </body>
+    </head>
+</html>
